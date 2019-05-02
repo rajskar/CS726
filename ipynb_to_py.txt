@@ -1,0 +1,3 @@
+To convert ipynb to py
+
+$ ipython nbconvert --to=python [YOUR_NOTEBOOK].ipynb

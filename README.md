@@ -7,4 +7,5 @@ Original FgSegnet models were tested on the surveillance videos. But it was obse
 We plan to modify the network to take care of this problem in the presented model.
 
 # Methodology
+## Data Preparation
 Modified existing FgSegNet with 3D convolutional Network. This has improved the performance 

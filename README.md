@@ -74,13 +74,22 @@ Epochs: 10
 Duration: around 3Hrs
 
 ## Experimental Results along with Commentary
+We downloaded a video from youtube https://github.com/rajskar/CS726/blob/master/4K%20camera%20example%20for%20Traffic%20Monitoring%20(Road)%20%5B360p%5D.mp4
+This is our test case. This is selected such that it has both static and moving objects.
+The outputs of both the models are provided below:
+Link1: Original FgSegNet Output on the test video
+Link2: Our improved FgSegNet Output on the test video
+
+The improved performance is clearly visible from the outputs
 
 ## Effort
 ### Fraction of time in different parts of project
+Datapreparation: 1/4th time
+Modelling two architectures and solving various problems listed above: 1/2 of the time
+Training & testing: 1/4 th time
+
 ### Challenging part
-### Fraction of work done by different team members
+Due to limitation of resources, modelling appropriately was challenging. Initially while training, loss was becoming NaN. Normalising data, modifying dropout regularisation etc were adopted to rectify it.
+Data preparation suitbaly
 
-# Methodology
-## Data Preparation
-
-Modified existing FgSegNet with 3D convolutional Network. This has improved the performance 
+Modified existing FgSegNet with 3D convolutional Network has improved the performance 

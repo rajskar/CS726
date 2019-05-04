@@ -77,8 +77,7 @@ Duration: around 3Hrs
 We downloaded a video from youtube https://github.com/rajskar/CS726/blob/master/4K%20camera%20example%20for%20Traffic%20Monitoring%20(Road)%20%5B360p%5D.mp4
 This is our test case. This is selected such that it has both static and moving objects.
 The outputs of both the models are provided below:
-Link1: Original FgSegNet Output on the test video
-Link2: Our improved FgSegNet Output on the test video
+Link: https://github.com/rajskar/CS726/tree/master/Outputs
 
 The improved performance is clearly visible from the outputs
 
